@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.catalog-button{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: #79AC78;
+    padding: 0.5vw 7.5vw 0.5vw 7.5vw;
+    border-radius: 20px;
+    text-align: center;
+    width: auto;
+}
+
+#alignrow{
+    align-items: center;
+    height: 100%;
+    padding: 30px 0px 30px 0px;
+}
+
+#headerhome, #mainhome1{
+    margin-bottom: 5vh;
+}
+
+.home-bike-card, .home-city-card{
+    border: 1;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: #d9d9d9;
+    padding: 8px;
+    width: auto;
+}
+
+.home-bike-photo, .home-city-photo{
+    display: block;
+    max-width: 100px;
+    height: 100px;
+    max-height: 100px;
+}
+
+.home-bike-button, .home-city-button{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: #79AC78;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    text-align: center;
+    width: auto;
+}

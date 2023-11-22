@@ -1,0 +1,66 @@
+#header {
+    padding: 8px;
+    background: #79AC78;
+    margin-bottom: 20px;
+}
+
+.searchbar {
+    margin-top: 1vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.searchbar input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    margin: 0;
+    width: 80%;
+}
+
+::placeholder{
+    color: black;
+}
+
+.searchbar button img {
+    width: 25px;
+}
+.searchbar button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+}
+
+#header-nav{
+    float: right;
+    margin-top: 1vh;
+}
+
+.botao-user {
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #EFFBEE;
+
+}
+
+.botao-user img {
+    padding: 15px;
+    max-width: 150px;
+}
+
+#logoequipe {
+    float: right;
+}
+
+footer {
+    background-color: #727272;
+    margin-top: 20px;
+}

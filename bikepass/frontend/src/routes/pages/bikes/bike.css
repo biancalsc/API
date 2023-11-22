@@ -1,0 +1,98 @@
+#fundo {
+  background-color: #effbee;
+}
+
+.valores {
+  width: 302px;
+  min-height: 55px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #d0e7d2;
+}
+
+.perfil {
+  width: 302px;
+  min-height: 55px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #d0e7d2;
+}
+
+#perfilImg {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  height: 150px;
+  width: 150px;
+}
+
+.valContainers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rowcard {
+  padding-bottom: 30px;
+}
+
+#categoria {
+  padding-bottom: 30px;
+}
+
+.cards {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 70px;
+}
+
+#cardCont {
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 1180px;
+  width: auto;
+}
+
+#rowDesc {
+  padding-top: 30px;
+}
+
+#cardDesc {
+  width: auto;
+  height: 200px;
+  border-radius: 15px;
+  padding: 56px;
+}
+
+#mapCardRow {
+  padding-top: 30px;
+}
+
+#mapCard {
+  width: auto;
+  height: 450px;
+  border-radius: 15px;
+}
+
+#Rcol {
+  right: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+@media (max-width: 575.99px) {
+  #cardCont {
+    width: auto;
+    margin-bottom: 30px;
+  }
+
+  .respCard {
+    margin-bottom: 30px;
+  }
+}
